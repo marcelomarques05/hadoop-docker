@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
-EXPOSE 50070 8088
+EXPOSE 50070 8088 9864
 
 RUN apt-get update -y && apt-get install -y ssh rsync wget curl net-tools vim openjdk-8-jdk openjdk-8-jre
 RUN ssh-keygen -q -t rsa -N '' -f /root/.ssh/id_rsa && cat /root/.ssh/id_rsa.pub > /root/.ssh/authorized_keys2

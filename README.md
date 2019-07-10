@@ -11,7 +11,7 @@ docker build . -t hadoop:1
 
 3. Start the container
 
-docker run -it --name hadoop --rm -p 50070:50070 -p 8088:8088 hadoop:1
+docker run -it --name hadoop --rm -p 50070:50070 -p 8088:8088 -p 9864:9864 hadoop:1
 
 4. Feel Free now to use the container. Some uses:
 
