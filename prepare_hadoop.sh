@@ -16,6 +16,7 @@ echo 'export HDFS_NAMENODE_USER="root"' >> /root/hadoop/etc/hadoop/hadoop-env.sh
 echo 'export HDFS_NAMENODE_GROUP="root"' >> /root/hadoop/etc/hadoop/hadoop-env.sh
 echo 'export HDFS_DATANODE_USER="root"' >> /root/hadoop/etc/hadoop/hadoop-env.sh
 echo 'export HDFS_SECONDARYNAMENODE_USER="root"' >> /root/hadoop/etc/hadoop/hadoop-env.sh
+echo 'export HADOOP_CONF_DIR=${HADOOP_HOME}/etc/hadoop' >> /root/hadoop/etc/hadoop/hadoop-env.sh
 echo 'export YARN_NODEMANAGER_USER="root"' >> /root/hadoop/etc/hadoop/yarn-env.sh
 echo 'export YARN_RESOURCEMANAGER_USER="root"' >> /root/hadoop/etc/hadoop/yarn-env.sh
 
