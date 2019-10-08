@@ -8,7 +8,7 @@ mkdir /usr/java
 ln -s /usr/lib/jvm/java-1.8.0-openjdk-amd64 /usr/java/latest
 
 # Linkando o hadoop para facilidade em configurações
-ln -s /root/hadoop-3.1.2 /root/hadoop
+ln -s /root/hadoop-3.2.1 /root/hadoop
 
 # Passando alguns parâmetros iniciais para o start do serviço
 echo 'export JAVA_HOME="/usr/java/latest"' >> /root/hadoop/etc/hadoop/hadoop-env.sh
