@@ -3,7 +3,7 @@ Hadoop in Docker Desktop Environment
 
 1. Clone the repository into Docker Server
 
-git clone ...
+git clone $(repository)
 
 2. Execute the build (inside the hadoop-docker folder)
 
@@ -23,3 +23,8 @@ http://localhost:50070
 
 # Access YARN Resource Manager
 http://localhost:8088
+
+# Access DataNode WebUI
+http://localhost:9864
+
+* To use WebUI, remember that localhost is only if you´re using Docker in same host you´re using. If you´re using some external environment, you need to get the external IP address.
